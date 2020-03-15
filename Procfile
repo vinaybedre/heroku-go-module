@@ -1,1 +1,1 @@
-web: punktpoker
+web: heroku-go-module

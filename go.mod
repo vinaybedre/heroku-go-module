@@ -1,4 +1,4 @@
-module punktpoker
+module github.com/vinaybedre/heroku-go-module
 
 go 1.14
 
