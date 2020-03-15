@@ -15,7 +15,7 @@ func main() {
 	// 	portEnv = ":8081"
 	// }
 	r := GetHandler("/ws")
-	r.Run(portEnv)
+	r.Run(":" + os.Getenv("PORT"))
 }
 
 func GetHandler(url string) *gin.Engine {
